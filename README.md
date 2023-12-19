@@ -6,7 +6,7 @@ Welcome to Graph Problem ! This project gives you graph of the dataset by automa
 
 
 ## Installation and How to run the code
-* clone the repository and extract `https://github.com/Harshjeet/trustlab `
+* clone the repository and extract [https://github.com/Harshjeet/trustlab ](https://github.com/Harshjeet/trustlab.git)
 * create the virtual environment using `python3 -m venv {your virtual env folder name}` (without flower bracket)
 * activate the virtual environment `source -m {your virtual env folder name}` in case of linux . If you are using windows use `cd {your env folder}`. Then,  `cd Script` .Then, `activate`
 * install the required dependencies  `pip install -r requirement.txt`
