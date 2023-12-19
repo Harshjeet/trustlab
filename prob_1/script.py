@@ -1,29 +1,4 @@
 
-
-# # print("File downloaded successfully!")
-# import requests
-# from urllib.parse import urlsplit
-
-# # Replace the URL with the actual link you see when hovering over the `href` tag
-# url = 'https://www.scb.se/contentassets/edc2b33f85ad415d8e7909002253ed84/2023-05-11-preliminar_statistik_over_doda_inkl_eng.xlsx'
-
-# # Send a GET request to the URL
-# response = requests.get(url)
-
-# # Extract the filename from the response headers
-# content_disposition = response.headers.get("Content-Disposition", "")
-# if content_disposition:
-#     filename = content_disposition.split("filename=")[1].strip('"')
-# else:
-#     # If Content-Disposition header is not present, extract filename from URL
-#     filename = urlsplit(url).path.split("/")[-1]
-
-# # Open a file in write mode and write the content of the response
-# with open(filename, "wb") as f:
-#     f.write(response.content)
-
-# print(f"Downloaded file: {filename}")
-
 import requests
 import pandas as pd
 from urllib.parse import urlsplit
